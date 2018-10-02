@@ -8,12 +8,12 @@ import java.util.logging.Logger;
 /**
  * Created by adrian.dinu on 9/3/2018.
  */
-public class FirstService implements JavaDelegate {
+public class ErrorService implements JavaDelegate {
 
-    private final Logger LOGGER = Logger.getLogger("FirstService");
+    private final Logger LOGGER = Logger.getLogger("ErrorService");
 
     public void execute(DelegateExecution execution) throws Exception {
 
-       LOGGER.info("-------Hello... How are you ? ---------------------");
+       LOGGER.info("-------Hello... I should send a error email ---------------------");
     }
 }
